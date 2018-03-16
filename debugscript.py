@@ -14,7 +14,9 @@ else:
     rng=random.Random()
 
 
-def wchoices(population,weights):
+def wchoices(population,weights=None):
+    if weights==None:
+        weights=np.ones(len(population)).tolist()
     cumsum=[0]
     for w in weights:
         cumsum.append(w+cumsum[len(cumsum)-1])
