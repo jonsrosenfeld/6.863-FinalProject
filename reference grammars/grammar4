@@ -1,0 +1,269 @@
+# This grammar uses a convention that
+#    - terminals are lowercase          (president)
+#    - preterminals are capitalized     (Noun)
+#    - other nonterminals are all-caps  (NP)
+# 
+# This convention just makes grammars more readable to humans.  Thus:
+#
+#    - You should follow this convention unless you have a good reason
+#      not to.
+#
+#    - But your *program* should still work with grammars that don't 
+#      follow this convention.  It should not pay any attention to
+#      upper/lower case.  From your program's point of view, 
+#      if there is at least one rule for rewriting a symbol, then
+#      that symbol is a nonterminal and should be rewritten.
+#######################
+
+# The basic grammar rules.  Here's what the abbreviations stand for:
+#    S  = sentence
+#    NP = noun phrase
+#    VP = verb phrase
+#    PP = prepositional phrase
+#    Det = determiner (sometimes called "article")
+#    Prep = preposition
+#    Adj = adjective
+
+###  Additions naming meaning: ######
+#    Prop_noun = proper noun
+#    AMod = adjective modifier
+#    THAT = that (relating clauses - not conjection)
+#    Verb_intrans = intransitive verb 
+#    Verb_trans = transitive verb     
+#    Verb_leftaction = 'leftaction' verb (such as thought)
+#    Verb_unspecified = 'work' is given a category in itself (although not teated specifically in the current implementation)
+#    Verb_ex_rightaction = all verb types excluding 'right-acting' type
+#    Verb_rightaction = 'rightaction' verb (such as perplexed)
+#    Verb = defunct
+#    CCS = Coordinated Conjugated Sentence
+#    CCs = clause level (sentence) coordinating conjugate
+#    CP = Conjugating clause
+#    SC	= subordinate conjugate
+#    CCV = Coordinated Conjugated Verb
+#    CCi = item level (noun, verb) coordinating conjugate
+#    CCNP = Coordinated Conjugated noun phrase
+
+#    S_present = Sentence in present tense, with 
+#    S_no_intrans = Sentense with no intransitive verb ending
+
+#    Verb_trans_present = transitive verb in present tense
+#    Verb_intrans_present = intransitive verb in present tense
+#    Verb_leftaction_present = 'leftaction' verb in present tense
+#    Verb_ex_rightaction_present = verb in present tense of all types excluding rightaction
+#    Verb_unspecified_present = 'work' type verb (placeholder) in present tense
+#    Verb_no_intrans_present = includes only transitive and leftaction verbs in present tense
+
+
+#    VP_present = present tense Verb phrase
+
+#    VP_no_intrnas =  Verb phrase (past tense), includes only transitive and leftaction verbs
+#    Verb_no_intrans = only transitive and leftaction verbs (in past tense)
+
+#    DID_WILL = did/will question words
+#    WHAT_WHO = what/who question words
+#    WHERE_WHEN = where/when question words
+######################################
+
+# Rules for creating full sentences.
+1 	START	ROOT
+1	ROOT	S .
+1	ROOT	S !
+1	ROOT	is it true that S ?     # mixing terminals and nonterminals is ok.
+1	ROOT	THAT S Verb_rightaction NP . # note that THAT='that' is not a conjection here.
+                                      # One can imagine an ommited implicit preceeding clause (e.g. 'I believe that..')
+                                      # e.g. sentence 8
+                                      
+# Question forms are introduced at ROOT only. 
+# This is similar to the above 'ROOT that S V NP' form in that in essence these are permutations 
+# on the order of words and or an alteration of thier tense - i.e. transformations.
+# A mechinism to capture these transformations is lacking in the current framework.
+
+1    ROOT DID_WILL S_present ?                           #did Sally eat a sandwich ? #did Sally and the president kiss ? 
+1    ROOT DID_WILL NP Verb_leftaction_present SC S ?     #did the president think that a sandwich sighed ?
+1    ROOT WHAT_WHO DID_WILL NP Verb_leftaction_present SC S_no_intrans ?     
+                #what did the president think that Sally ate ? 
+                #must reject what did the president think that Sally sighed ?
+1    ROOT WHAT_WHO DID_WILL NP Verb_no_intrans_present ? #what did the president eat? /think? [not: sigh / perplex]     
+1    ROOT WHAT_WHO DID_WILL S_present Prep ? #what did Sally eat the sandwich with ?
+                # does accept: what did Sally sigh in? who will Sally eat a sandwich in?
+                # PP exluded for avoiding awkwardness of the form:
+                # what did the president think that sally sighed under?
+                # who did sally eat with the president under the desk with ? 
+
+1    ROOT WHAT_WHO VP ?                     #who ate the sandwich ?
+1    ROOT WHERE_WHEN DID_WILL S_present ?        
+            # where did Sally eat the sandwich ?
+            # better to reject: where did sally eat the sandwich under the desk ?
+
+1    S_present NP VP_present 
+1    S_no_intrans NP VP_no_intrnas
+
+1    VP_present Verb_trans_present NP     #will Sally eat a sandwich ? did sally eat a pickled pickle ?
+#1    VP_present Verb_intrans_present        # did the president sigh ?
+#1    VP_present Verb_trans_present          # did Sally eat ? #did the president work?
+1    VP_present Verb_ex_rightaction_present # did a sandwich think ? did a sandwich work ?
+1    VP_present VP_present CCi VP_present   #did Sally and the president want and eat a sandwich? did Sally and the president sigh and work on the desk and eat a sandwich?
+1    VP_no_intrnas Verb_no_intrans
+
+1    Verb_no_intrans_present Verb_leftaction_present
+1    Verb_no_intrans_present Verb_trans_present
+
+1    Verb_no_intrans Verb_leftaction
+1    Verb_no_intrans Verb_trans
+
+1    Verb_ex_rightaction_present Verb_intrans_present
+1    Verb_ex_rightaction_present Verb_trans_present
+1    Verb_ex_rightaction_present Verb_leftaction_present
+1    Verb_ex_rightaction_present Verb_unspecified_present
+
+1	Verb_trans_present	   eat
+1	Verb_trans_present	   want
+1	Verb_trans_present   kiss
+1	Verb_trans_present   understand
+1	Verb_trans_present   pickle
+
+1	Verb_intrans_present	eat
+1	Verb_intrans_present	kiss
+1	Verb_intrans_present	understand
+1	Verb_intrans_present	sigh
+
+1	Verb_leftaction_present	think
+1	Verb_leftaction_present	understand # calculate
+
+1    Verb_rightaction_present   perplex # offend, deter, captivate, amaze
+
+1	Verb_unspecified_present	work 
+
+1    DID_WILL   did
+1    DID_WILL   will
+
+1    WHAT_WHO   what
+1    WHAT_WHO   who
+1    WHERE_WHEN where
+1    WHERE_WHEN when
+
+######################## end of question related additions#######
+
+
+
+1	S	NP VP #
+0.2  S   S CCS #        # CCS - coordinated conjugated sentence. (e.g. sentence 6). note that a subordinate conjection covered elsewhere (by VP verb_intrans CP) 
+1	CCS	CCs S #         #
+
+
+1	VP	Verb_trans NP   # noun phrase may not follow intransitive verbs
+0.2	VP	Verb_leftaction CP # verb followed by a conjugated phrase (e.g. sentence 7)
+1	CP	SC S               # conjected phrase (sentence) (SC - subordinate coordination 'that')
+
+
+#1	VP	Verb_trans      # VP modification to accept sole verb.
+#1	VP	Verb_intrans    # VP modification to accept sole verb.
+#1	VP	Verb_leftaction # VP modification to accept sole verb.
+#1   VP  Verb_unspecified # VP modification to accept sole verb.
+1	VP	Verb_ex_rightaction         # VP modification to accept solitary verbs - excluding rightaction type.
+
+
+#1	VP	Verb_intrans PP 
+1	VP	Verb_ex_rightaction PP         # VP modification to accept preposition prases following *all* verb types except rightaction type ('e.g. amazed')
+
+1	PP	Prep NP
+
+
+# Verb_ex_rightaction includes all types of verbs except verb_rightaction tpye
+1   Verb_ex_rightaction Verb_trans
+1   Verb_ex_rightaction Verb_intrans
+1   Verb_ex_rightaction Verb_leftaction
+1   Verb_ex_rightaction Verb_unspecified
+
+# same type conjugation only:
+0.2   Verb_trans        Verb_trans CCi Verb_trans
+0.2   Verb_intrans      Verb_intrans CCi Verb_intrans
+0.2   Verb_leftaction   Verb_leftaction CCi Verb_leftaction
+0.2   Verb_unspecified  Verb_unspecified CCi Verb_unspecified
+
+#0.2	Verb	Verb CCV       # coordinated conjected verbs - all types mixed
+#1	CCV	CCi Verb       #CCV = coordinated conjected verb 
+
+
+
+1	NP	Det Noun
+0.2	NP	NP PP
+1	NP	Prop_noun      # proper-noun addition - a NP can be assume a proper-noun terminal 
+                        # form( with no determinant preceding it)
+0.2	NP	NP CCNP	      # coordinated conjected noun phrase
+1	CCNP	CCi NP         # CCNP = coordinated conjected NP
+
+
+1	Noun	Adj Noun
+
+0.2	Adj	AMod Adj       # adjactive modification (e.g. very pickled)
+
+######################
+
+
+# Vocabulary.  Your program can see that "ate" is a terminal
+# symbol because there exists no rule for rewriting it.
+# Any symbol that can rewrite as a terminal (or a string of 
+# terminals, like "chief of staff") is called a "preterminal."  Notice 
+# that a preterminal is a special kind of nonterminal.
+
+1	Verb_trans	ate
+1	Verb_trans	wanted
+1	Verb_trans	kissed
+1	Verb_trans	understood
+1	Verb_trans	pickled
+
+1	Verb_intrans	ate
+1	Verb_intrans	kissed
+1	Verb_intrans	understood
+1	Verb_intrans	sighed
+
+1	Verb_leftaction	thought
+1	Verb_leftaction	understood # calculated
+
+1   Verb_rightaction   perplexed # offended, detered, captivated, amazed
+
+1	Verb_unspecified	worked 
+
+
+1	Det	the
+1	Det	a
+1	Det	every
+
+1	Noun	president
+1	Noun	sandwich
+1	Noun	pickle
+1	Noun	chief of staff
+1	Noun	floor
+
+1	Adj	fine
+1	Adj	delicious
+1	Adj	perplexed
+1	Adj	pickled
+
+1	Prep	with
+1	Prep	on
+1	Prep	under
+1	Prep	in
+
+
+### Vocabulary additions:
+1	Verb	perplexed
+
+1	Prop_noun 	Sally
+
+1	Noun	desk
+1	Noun	proposal
+
+1	CCi	and #item level (noun, verb) coordinating conjugate. e.g. 'or,nor'
+1	CCs	but #clause level (sentence) coordinating conjugate. e.g. 'yet,so,for'
+1	CCs	and
+
+1	SC	that #subordinate conjugate. e.g. 'after, while, least, because' 
+
+1	AMod	very
+
+1   THAT that
+
+##########################
+
