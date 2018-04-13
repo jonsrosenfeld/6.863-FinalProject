@@ -22,7 +22,8 @@ def get_number_sets(sent_len):
     if N%2 !=0:
         gram_num_list=[]
     else:
-        gram_num_list=[(int(N/2))**2-1] # this is the only grammatical sequence corresponding number for sequence length of length N
+        print('N='+str(N)+',=>'+str(2**(int(N/2))-1))
+        gram_num_list=[2**(int(N/2))-1] # this is the only grammatical sequence corresponding number for sequence length of length N
         ungram_num_list.remove(gram_num_list[-1]) # remove the grammatical corresponding number to get the ungrammatical number set
     return gram_num_list,ungram_num_list
 
@@ -41,4 +42,4 @@ def gen_data(max_sent_len,output_gr_filename,output_ungr_filename):
 output_gr_filename='gr_data.txt'
 output_ungr_filename='ug_data.txt'
 
-gen_data(5,output_gr_filename,output_ungr_filename)
+gen_data(10,output_gr_filename,output_ungr_filename)
