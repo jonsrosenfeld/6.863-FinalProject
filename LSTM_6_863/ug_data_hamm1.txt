@@ -1,0 +1,650 @@
+b b UGR
+a a UGR
+b a b b UGR
+a b b b UGR
+a a a b UGR
+a a b a UGR
+b a a b b b UGR
+a b a b b b UGR
+a a b b b b UGR
+a a a a b b UGR
+a a a b a b UGR
+a a a b b a UGR
+b a a a b b b b UGR
+a b a a b b b b UGR
+a a b a b b b b UGR
+a a a b b b b b UGR
+a a a a a b b b UGR
+a a a a b a b b UGR
+a a a a b b a b UGR
+a a a a b b b a UGR
+b a a a a b b b b b UGR
+a b a a a b b b b b UGR
+a a b a a b b b b b UGR
+a a a b a b b b b b UGR
+a a a a b b b b b b UGR
+a a a a a a b b b b UGR
+a a a a a b a b b b UGR
+a a a a a b b a b b UGR
+a a a a a b b b a b UGR
+a a a a a b b b b a UGR
+b a a a a a b b b b b b UGR
+a b a a a a b b b b b b UGR
+a a b a a a b b b b b b UGR
+a a a b a a b b b b b b UGR
+a a a a b a b b b b b b UGR
+a a a a a b b b b b b b UGR
+a a a a a a a b b b b b UGR
+a a a a a a b a b b b b UGR
+a a a a a a b b a b b b UGR
+a a a a a a b b b a b b UGR
+a a a a a a b b b b a b UGR
+a a a a a a b b b b b a UGR
+b a a a a a a b b b b b b b UGR
+a b a a a a a b b b b b b b UGR
+a a b a a a a b b b b b b b UGR
+a a a b a a a b b b b b b b UGR
+a a a a b a a b b b b b b b UGR
+a a a a a b a b b b b b b b UGR
+a a a a a a b b b b b b b b UGR
+a a a a a a a a b b b b b b UGR
+a a a a a a a b a b b b b b UGR
+a a a a a a a b b a b b b b UGR
+a a a a a a a b b b a b b b UGR
+a a a a a a a b b b b a b b UGR
+a a a a a a a b b b b b a b UGR
+a a a a a a a b b b b b b a UGR
+b a a a a a a a b b b b b b b b UGR
+a b a a a a a a b b b b b b b b UGR
+a a b a a a a a b b b b b b b b UGR
+a a a b a a a a b b b b b b b b UGR
+a a a a b a a a b b b b b b b b UGR
+a a a a a b a a b b b b b b b b UGR
+a a a a a a b a b b b b b b b b UGR
+a a a a a a a b b b b b b b b b UGR
+a a a a a a a a a b b b b b b b UGR
+a a a a a a a a b a b b b b b b UGR
+a a a a a a a a b b a b b b b b UGR
+a a a a a a a a b b b a b b b b UGR
+a a a a a a a a b b b b a b b b UGR
+a a a a a a a a b b b b b a b b UGR
+a a a a a a a a b b b b b b a b UGR
+a a a a a a a a b b b b b b b a UGR
+b a a a a a a a a b b b b b b b b b UGR
+a b a a a a a a a b b b b b b b b b UGR
+a a b a a a a a a b b b b b b b b b UGR
+a a a b a a a a a b b b b b b b b b UGR
+a a a a b a a a a b b b b b b b b b UGR
+a a a a a b a a a b b b b b b b b b UGR
+a a a a a a b a a b b b b b b b b b UGR
+a a a a a a a b a b b b b b b b b b UGR
+a a a a a a a a b b b b b b b b b b UGR
+a a a a a a a a a a b b b b b b b b UGR
+a a a a a a a a a b a b b b b b b b UGR
+a a a a a a a a a b b a b b b b b b UGR
+a a a a a a a a a b b b a b b b b b UGR
+a a a a a a a a a b b b b a b b b b UGR
+a a a a a a a a a b b b b b a b b b UGR
+a a a a a a a a a b b b b b b a b b UGR
+a a a a a a a a a b b b b b b b a b UGR
+a a a a a a a a a b b b b b b b b a UGR
+b a a a a a a a a a b b b b b b b b b b UGR
+a b a a a a a a a a b b b b b b b b b b UGR
+a a b a a a a a a a b b b b b b b b b b UGR
+a a a b a a a a a a b b b b b b b b b b UGR
+a a a a b a a a a a b b b b b b b b b b UGR
+a a a a a b a a a a b b b b b b b b b b UGR
+a a a a a a b a a a b b b b b b b b b b UGR
+a a a a a a a b a a b b b b b b b b b b UGR
+a a a a a a a a b a b b b b b b b b b b UGR
+a a a a a a a a a b b b b b b b b b b b UGR
+a a a a a a a a a a a b b b b b b b b b UGR
+a a a a a a a a a a b a b b b b b b b b UGR
+a a a a a a a a a a b b a b b b b b b b UGR
+a a a a a a a a a a b b b a b b b b b b UGR
+a a a a a a a a a a b b b b a b b b b b UGR
+a a a a a a a a a a b b b b b a b b b b UGR
+a a a a a a a a a a b b b b b b a b b b UGR
+a a a a a a a a a a b b b b b b b a b b UGR
+a a a a a a a a a a b b b b b b b b a b UGR
+a a a a a a a a a a b b b b b b b b b a UGR
+b a a a a a a a a a a b b b b b b b b b b b UGR
+a b a a a a a a a a a b b b b b b b b b b b UGR
+a a b a a a a a a a a b b b b b b b b b b b UGR
+a a a b a a a a a a a b b b b b b b b b b b UGR
+a a a a b a a a a a a b b b b b b b b b b b UGR
+a a a a a b a a a a a b b b b b b b b b b b UGR
+a a a a a a b a a a a b b b b b b b b b b b UGR
+a a a a a a a b a a a b b b b b b b b b b b UGR
+a a a a a a a a b a a b b b b b b b b b b b UGR
+a a a a a a a a a b a b b b b b b b b b b b UGR
+a a a a a a a a a a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b b b b b b b b b b UGR
+a a a a a a a a a a a b a b b b b b b b b b UGR
+a a a a a a a a a a a b b a b b b b b b b b UGR
+a a a a a a a a a a a b b b a b b b b b b b UGR
+a a a a a a a a a a a b b b b a b b b b b b UGR
+a a a a a a a a a a a b b b b b a b b b b b UGR
+a a a a a a a a a a a b b b b b b a b b b b UGR
+a a a a a a a a a a a b b b b b b b a b b b UGR
+a a a a a a a a a a a b b b b b b b b a b b UGR
+a a a a a a a a a a a b b b b b b b b b a b UGR
+a a a a a a a a a a a b b b b b b b b b b a UGR
+b a a a a a a a a a a a b b b b b b b b b b b b UGR
+a b a a a a a a a a a a b b b b b b b b b b b b UGR
+a a b a a a a a a a a a b b b b b b b b b b b b UGR
+a a a b a a a a a a a a b b b b b b b b b b b b UGR
+a a a a b a a a a a a a b b b b b b b b b b b b UGR
+a a a a a b a a a a a a b b b b b b b b b b b b UGR
+a a a a a a b a a a a a b b b b b b b b b b b b UGR
+a a a a a a a b a a a a b b b b b b b b b b b b UGR
+a a a a a a a a b a a a b b b b b b b b b b b b UGR
+a a a a a a a a a b a a b b b b b b b b b b b b UGR
+a a a a a a a a a a b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a b b b b b b b b b b UGR
+a a a a a a a a a a a a b b a b b b b b b b b b UGR
+a a a a a a a a a a a a b b b a b b b b b b b b UGR
+a a a a a a a a a a a a b b b b a b b b b b b b UGR
+a a a a a a a a a a a a b b b b b a b b b b b b UGR
+a a a a a a a a a a a a b b b b b b a b b b b b UGR
+a a a a a a a a a a a a b b b b b b b a b b b b UGR
+a a a a a a a a a a a a b b b b b b b b a b b b UGR
+a a a a a a a a a a a a b b b b b b b b b a b b UGR
+a a a a a a a a a a a a b b b b b b b b b b a b UGR
+a a a a a a a a a a a a b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a b b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a a b b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a a b b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a a b b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a a b b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a a b b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a a b b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a a b b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a a b b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a a b b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a a b b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a a b b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a a b b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a a b b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a a b b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a a b b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a a b b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a a b b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a a b b b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a a a b b b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a a a b b b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a a a b b b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a a a b b b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a a a b b b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a a a b b b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a a a b b b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a a a b b b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a a a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a a a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a a a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a a a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b b b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b b b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b b b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b b b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a a a b b b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a a a b b b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a a a b b b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a a a b b b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a a a b b b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a a a b b b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a a a b b b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a a a b b b b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a a a a b b b b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a a a a b b b b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a a a a b b b b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a a a a b b b b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a a a a b b b b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a a a a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a a a a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a a a a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a a a a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a a a a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a a a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b a a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b b a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b b b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b b b b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b b b b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b b b b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b b b b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b b b b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a a a a b b b b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a a a a b b b b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a a a a b b b b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a a a a b b b b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a a a a b b b b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a a a a a b b b b b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a a a a a b b b b b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a a a a a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a a a a a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a a a a a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a a a a a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a a a a a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a a a a a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a a a a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b a a a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b a a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b b a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b b b a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b b b b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b b b b b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b b b b b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b b b b b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b b b b b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b b b b b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b b b b b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a a a a a b b b b b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a a a a a b b b b b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b a UGR
+b a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a b a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a b a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a b a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a b a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a b a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a b a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a b a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a b a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a b a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a b a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a b a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a b a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a b a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a b a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a b a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a b a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a b a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a b a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a b a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a b a a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a b a a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a b a a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b a b b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b a b b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b a b b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b a b b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b a b b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b a b b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b a b b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b a b b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b a b b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b a b b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b a b b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b a b b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b a b b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b a b b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b a b b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b a b b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b a b b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b a b b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b a b b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b a b b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b a b b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b a b b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b a b UGR
+a a a a a a a a a a a a a a a a a a a a a a a a a b b b b b b b b b b b b b b b b b b b b b b b b a UGR
