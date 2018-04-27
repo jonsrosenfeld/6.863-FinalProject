@@ -164,8 +164,8 @@ def filter_out(mode, value, input_filename,output_filename,filtered_filename):
           with open(input_filename) as f:
            content = f.readlines()
           for line in content:
-              line=line.split(" ")
-              if len(line)-1<value :
+              line_long=line.split(" ")
+              if len(line_long)-1<value :
                   print (line)
                   f_output.write(line)
               else:
@@ -179,19 +179,34 @@ def filter_out(mode, value, input_filename,output_filename,filtered_filename):
                 f_filtered.write(line)
             else: 
                 f_output.write(line)
-    
+                
+def random_sample(input_file, sample_up_to, result):  
+    f_result=open(result, 'a')
+    with open(input_file) as f:
+     content = f.readlines()
+    content_lines=[]
+    #original_content_length=len(content_lines)
+    while len(content_lines)<sample_up_to:
+         print (len(content_lines))
+         t=random.randint(0,len(content)-1)
+         content_lines.append(content[t])  
+    for element in content_lines:
+        f_result.write(element)
+         
+        
         
     #file=open()
     # shorter_then  value 100 -> save only longer then value
     # list_f value=[] filter out lines with certain numbers. save filters in a file
 
 
-#gen_gr_only(100,'gr_data.txt')
-#gen_ug_hammdist(100,'ug_data_hamm1.txt',1) ### 'easy'. of the form ababbb this gives changes of the form ababbb
+#random_sample('filtered_ungram_longt.txt',250, "sample_long_ungramatial.txt")
+#gen_gr_only(1000,'gr_data-1000.txt')
+gen_ug_hammdist(250,'ug_data_hamm2-250.txt',2) ### 'easy'. of the form ababbb this gives changes of the form ababbb
 #gen_ug_subset(100,'ug_data_subset.txt')
 
-#upsample(100,'gr_data.txt',"upsampled")
-filter_out("list_f",[0,1],"gr_data.txt","","")
+#upsample(62000,'filtered_gram_short',"upsampled_short")
+#filter_out("shorter_then",500,"ug_data_hamm1-1000.txt","filtered_ungram_short.txt","filtered_ungram_long.txt")
 
 
 
