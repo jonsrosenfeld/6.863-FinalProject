@@ -1,0 +1,6 @@
+1) Out_sst.tsv and out_ssd_real.tsv -> Very small datasets to test if the system works.
+2) train_g2.tsv and dev_g2.tsv -> Grammar 2 derived dataset. 200.000 Training set (100.000 grammatical and 100.000 ungramaticals) and a smaller dev set  2000 (1000 grammatical and 1000 ungramatical) 
+3) train_sanity.tsv and dev_sanity.tsv -> A sanity a^n b^n dataset. (each datapoint contains an explicit class features, so the system should be able to do the classification perfecty fast)
+4) out_train.tsv and out_dev.tsv a^n b^n dataset 
+* Train-> Short sequences up to 250 length (Total 124250 examples). Upsampled grammatical, randomly sampled Test
+* Test-> Long sequences (more then 250 to 1000), 500 examples, 250 grammatical upsampled, 250 randomly sampled longer sequences. 
