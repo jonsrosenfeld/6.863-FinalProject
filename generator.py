@@ -8,6 +8,8 @@ Created on Fri Mar 16 19:53:03 2018
 
 import random
 import numpy as np
+#from itertools import izip
+
 seed = 0
 if seed!=0:
     rng=random.Random(seed)
@@ -232,3 +234,8 @@ def gen_ungram_corpus(corpus_filename,output_filename,rule_dictionary,weight_dic
         for line in fin:
             line_out=alter_line(line,pre_terms_dict,vocab_to_preterm_dict,rule_dictionary,weight_dictionary)+'\n'
             fout.write(line_out)
+def filter_ungram(filt_fn,ug_cand_fn,out_fn):
+    with open(filt_fn,'r') as fflt, open(ug_cand_fn,'r') as fcand, open(out_fn,'w') as fout:
+        for linef, linec in zip(fflt, fcand):
+            if linef[0]=='f':
+                fout.write(linec)
