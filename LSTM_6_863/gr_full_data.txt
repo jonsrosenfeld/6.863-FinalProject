@@ -1,5 +1,0 @@
-a b GR
-a a b b GR
-a a a b b b GR
-a a a a b b b b GR
-a a a a a b b b b b GR
