@@ -254,7 +254,7 @@ def filter_ungram(filt_fn,ug_cand_fn,out_fn):
                fout.write(linec)
                
 def chain_commands_for_ungrammatical():
-    rule_d,weight_d=read_grammar("Grammar2")
+    rule_d,weight_d=read_grammar("grammar2")
     gen_corpus("grammatical", rule_d,weight_d,30000)
     gen_ungram_corpus("grammatical","ungrammatical",rule_d,weight_d)    
     run_a_script()
@@ -698,8 +698,23 @@ def split_to_sentences_and_labels(input_file,sentences,labels):
     out_sentence.close()
     out_labels.close()
     input_f.close()
+
+
+""" Two helpers for merging GRAMMAR2 like output """   
+def mark_examples_as(file1, mark): # don't forget to add " " before the mark
+    with open(file1, 'r') as f:
+      file_lines = [''.join([x.strip(), mark, '\n']) for x in f.readlines()]
+    with open(file1, 'w') as f:
+      f.writelines(file_lines) 
     
+
+def process(gramatical,ungrammatical,output):
+    mark_examples_as(gramatical," GR")
+    mark_examples_as(ungrammatical, " NG")
+    merge_files(gramatical,ungrammatical,output)
+    shuffle_file(output)    
     
+
   
 #split_to_sentences_and_labels("dev_g2.txt","s","l")
 #    
