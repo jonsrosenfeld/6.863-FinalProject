@@ -291,17 +291,17 @@ def predict_and_analyze(dataset_type, train_adress="",dev_adress="", test_adress
        train_iter_n, dev_iter_n, test_iter_n = data.BucketIterator.splits((train, dev,test), batch_size=1, sort_key=lambda x: len(x.text), device=None)
      
     ""  
-    model=get_model("results-5-5-100-best/best_snapshot_devacc_100.0_devloss_1.69754025592e-06_iter_77400_model.pt")
+    model=get_model("models/best_snapshot_devacc_100.0_devloss_0.00842789746821_iter_13600_model.pt")
     model.use_gpu=False
     model.eval()
-    f=open('predictions_explained_5-5-100.txt','a')
+    f=open('predictions_explained_iter-13600.txt','a')
     dev_iter_n.init_epoch()
    
-    batch_nums = list(range(8000)) #501 872 2000 60000 8000
+    batch_nums = list(range(2000)) #501 872 2000 60000 8000
     print (len(batch_nums))
     data_b =get_batches(batch_nums, train_iter_n, dev_iter_n,test_iterator=test_iter_n, dset='dev') 
     
-    for ind in range(7999): # 500
+    for ind in range(1999): # 500
        print ("START-EXAMPLE")
        print (ind)
        answer = model(data_b[ind]) 
@@ -330,7 +330,7 @@ def predict_and_analyze(dataset_type, train_adress="",dev_adress="", test_adress
 
 
 #predict_and_analyze("Custom_with_test",train_adress="train_g2.tsv",dev_adress="dev_g2.tsv", test_adress="train_g2.tsv")
-predict_and_analyze("Custom_with_test",train_adress="new_train.tsv",dev_adress="new_dev.tsv", test_adress="new_train.tsv")
+predict_and_analyze("Custom_with_test",train_adress="grammar2_train.tsv",dev_adress="grammar2_dev.tsv", test_adress="grammar2_train.tsv")
 
 '''
 for ind in range(7999):

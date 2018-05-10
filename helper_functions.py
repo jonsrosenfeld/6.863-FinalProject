@@ -712,15 +712,21 @@ def process(gramatical,ungrammatical,output):
     mark_examples_as(gramatical," GR")
     mark_examples_as(ungrammatical, " NG")
     
-    sizes={'train':15000,'dev':5000}
+    sizes={'train':15000,'dev':2000}
     for dataset_type in sizes.keys():
         result_gr="grammatical_"+dataset_type
         result_ugr="ungrammatical_"+dataset_type
         random_sample(gramatical, sizes[dataset_type], result_gr)
         random_sample(ungrammatical, sizes[dataset_type], result_ugr)
+        
+        merge_files(result_gr,result_ugr,output+str(dataset_type))
+        shuffle_file(output+str(dataset_type))
+
+#compute_dataset_overlap("grammar2_train","grammar2_dev")
+#space_sep_to_space_sep("grammar2_dev","grammar2_dev.tsv")
+
     
-    
-    
+#process("grammatical","filtered_result","grammar2_")
     #merge_files(gramatical,ungrammatical,output)
    # shuffle_file(output)    
     
