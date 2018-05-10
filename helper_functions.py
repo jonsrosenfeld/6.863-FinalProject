@@ -711,9 +711,21 @@ def mark_examples_as(file1, mark): # don't forget to add " " before the mark
 def process(gramatical,ungrammatical,output):
     mark_examples_as(gramatical," GR")
     mark_examples_as(ungrammatical, " NG")
-    merge_files(gramatical,ungrammatical,output)
-    shuffle_file(output)    
     
+    sizes={'train':15000,'dev':5000}
+    for dataset_type in sizes.keys():
+        result_gr="grammatical_"+dataset_type
+        result_ugr="ungrammatical_"+dataset_type
+        random_sample(gramatical, sizes[dataset_type], result_gr)
+        random_sample(ungrammatical, sizes[dataset_type], result_ugr)
+    
+    
+    
+    #merge_files(gramatical,ungrammatical,output)
+   # shuffle_file(output)    
+    
+    
+#def random_sample(input_file, sample_up_to, result)
 
   
 #split_to_sentences_and_labels("dev_g2.txt","s","l")
