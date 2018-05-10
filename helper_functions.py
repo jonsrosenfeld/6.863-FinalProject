@@ -700,40 +700,18 @@ def split_to_sentences_and_labels(input_file,sentences,labels):
     input_f.close()
     
     
-    
-        
-    
-def run_a_script():
-    shell_command = "/mit/6.863/spring2018/Software/parse -g grammar2 -i l -o output_parses"
-    os.system(shell_command)
-
-def check_a_line(line):
-    split_based_on_punctuation=line.split(".!?")
-    if split_based_on_punctuation[-1]=="Error":
-        return split_based_on_punctuation
-    else: return "GRAMMATICAL"
-        
-def generate_ungrammatical_grammar_x_with_check(number_of_ungrammatical_examples):
-    ungrammaticals=[]
-    while len(ungrammaticals)<number_of_ungrammatical_examples:
-        run_a_script()
-        f=open("output_parses",'r')
-        for line in f:
-            line_checked=check_a_line(line)
-            if line_checked=="GRAMMATICAL": continue
-            else: ungrammaticals.append[line_checked]
-            if len(ungrammaticals)>number_of_ungrammatical_examples: break
+  
 #split_to_sentences_and_labels("dev_g2.txt","s","l")
+#    
     
-    
-run_a_script()
+#run_a_script()
 
 
 #red_patch = mpatches.Patch(color='red', label='The red data')
 
 #os.chdir("train_sizes")
-generate_dataset(500,generate_test=True,types_of_ungr="both",type_prop={"grammatical":0.5,"switch":0.25,"misscount":0.25}, \
-                     final_sizes_dictionary={"train":2000,"dev":8000,"test":8000}, construction_type="all_then_upsample")
+#generate_dataset(500,generate_test=True,types_of_ungr="both",type_prop={"grammatical":0.5,"switch":0.25,"misscount":0.25}, \
+#                     final_sizes_dictionary={"train":2000,"dev":8000,"test":8000}, construction_type="all_then_upsample")
         
 #compute_dataset_overlap("train_g2.tsv","dev_g2.tsv")
            
