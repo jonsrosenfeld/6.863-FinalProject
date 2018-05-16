@@ -1,4 +1,4 @@
-# 6.863-FinalProject
+# Structure from linear string inputs: Learning human language derived CFG with LSTMs
 ## Installation 
 We pre-supposed that the person planing to run this project has conda installed
 

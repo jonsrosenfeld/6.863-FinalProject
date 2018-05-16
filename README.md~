@@ -42,7 +42,7 @@ WE CAN NOT PROVIDE GPU ENVIRONMENT SINCE THE CHOICE OF APPROPRIATE VERSION OF GP
 Project files
   * TestPYT_final.py - ALL THE TRAINING CODE, can be run from the command line
   * helper_functions.py - A set of helper functions icnluding dataset generators and the figure creation script, does not have a command line interface 
-  * load_model.py - All the prediction and result generation code,
+  * load_model.py - All the prediction and result generation code, can be run from the command line
   * PT2.yaml - An environment set-up file 
 
 
