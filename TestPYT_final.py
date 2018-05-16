@@ -80,6 +80,8 @@ class LSTMSentiment(nn.Module):
         self.embed = nn.Embedding(self.vocab_size, self.emb_dim)
         self.lstm = nn.LSTM(input_size = self.emb_dim, hidden_size = self.hidden_dim)
         self.hidden_to_label = nn.Linear(self.hidden_dim, self.num_labels)
+        
+        print (self.use_gpu)
     def forward(self, batch):
         if self.use_gpu:
            # print ("GPU")
@@ -110,7 +112,9 @@ def get_model(snapshot_file):
 
 def main_loop_structure(dataset_type): #  "aaaa_train_dev", "SST.train_dev_test" split
   args = get_args()
-  if args.gpu!=None:  torch.cuda.set_device(args.gpu)
+  if args.gpu!=None: 
+      print (args.gpu)
+      torch.cuda.set_device(args.gpu)
 # NEW DATASET
   if dataset_type=="aaaa_train_dev":
      TEXT = data.Field(tokenize=data.get_tokenizer('spacy'), sequential=True, init_token='<SOS>', eos_token='<EOS>',lower=True)
@@ -121,7 +125,12 @@ def main_loop_structure(dataset_type): #  "aaaa_train_dev", "SST.train_dev_test"
      LABELS.build_vocab(train)   
      print ("Unique tokens")
      print(TEXT.vocab.itos)
-
+     
+     
+     if args.gpu==-1:   
+         print (args.gpu)
+         args.gpu==None 
+         
      train_iter, val_iter, train_retest_iter = data.BucketIterator.splits((train, dev,test), batch_size=50, device=args.gpu, sort_key=None, sort=None)
      print ("Iterators are set")
      print ("Custom dataset")   
@@ -148,7 +157,7 @@ def main_loop_structure(dataset_type): #  "aaaa_train_dev", "SST.train_dev_test"
 
   config = args
   config.use_gpu=True
-  if args.gpu==-1:
+  if args.gpu==None:
       config.use_gpu=False
       
   config.n_embed = len(TEXT.vocab) #TEXT.vocab
@@ -164,8 +173,8 @@ def main_loop_structure(dataset_type): #  "aaaa_train_dev", "SST.train_dev_test"
         print ("WW")
         model.embed.weight.data = TEXT.vocab.vectors
     #print("Pre Cuda Sent")
-    if config.use_gpu:  model.cuda() 
-    #print ("POST CUDA SENT")
+    if config.use_gpu: 
+      model.cuda() 
        
     
   criterion = nn.CrossEntropyLoss()

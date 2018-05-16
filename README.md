@@ -13,12 +13,17 @@ and install
 ## Repository structure
 * Big_set_GR-UGR  - A set of grammatical and ungrammatical examples we sample from to construct GRAMMAR2 datasets. 
 * Datasets 
-   1.
-   2.
+   1.  
+   2.  
 * training_logs -The concolidated logs for all of our experiments
 * figures - All figures used in the report. The figures are generated from the Logs from training_logs  
 * prediction_results - The folder with the predicion results for pre-trained models
 * pretrained_models
+   1.  
+   2.  
+   3.    
+   4.   
+
 
 Project files
   * TestPYT_final.py
