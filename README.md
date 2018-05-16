@@ -1,15 +1,17 @@
 # 6.863-FinalProject
 ## Installation 
-This code was written in python 2.7.
-To run it define a new enviroment using cona 
-and install
 
+conda env create -f PT2.yaml
+
+* python 2.7
 * pytourch
 * tourchtext
 * spacy
 * sklearn
 * matplotlib
 * nltk
+
+
 ## Repository structure
 * Big_set_GR-UGR  - A set of grammatical and ungrammatical examples we sample from to construct GRAMMAR2 datasets. 
 * Datasets 
@@ -22,15 +24,12 @@ and install
    1.  
    2.  
    3.    
-   4.   
-
+  
 
 Project files
   * TestPYT_final.py
   * helper_functions.py
   * load_model.py
-
-
 
 
 ## Commands to run
