@@ -52,4 +52,60 @@ Note that without gpu use, the training might take days, especially on  the bigg
 
 python -W ignore TestPYT_final.py --epochs 15 --d_hidden 20 --d_embed 50 --gpu 1 --train_dataset Datasets/different_size_train_anbn/new_train.tsv --test_dataset Datasets/different_size_train_anbn/new_dev.tsv --save_path anbn-test  | tee final-log.txt
 
+###  To predict run:
+#### Perfect result with one uncertain example
+
+python -W ignore  load_model.py \
+--train_address \
+  Datasets/different_size_train_grammar2/grammar2_train-15000.tsv \
+--test_address \
+  Datasets/different_size_train_grammar2/grammar2_dev.tsv \
+--number_of_examples 4000 \
+--analysis_file_address predicted_dev.txt \
+--model_address \
+  pre-trained_models/grammaticals/15000-perfect_one_unsure.pt
+  
+  
+#### Perfect example, advesarial  result:
+
+python -W ignore  load_model.py \
+--train_address \
+  Datasets/different_size_train_grammar2/grammar2_train-15000.tsv \
+--test_address \
+  Datasets/different_size_train_grammar2/testing_theory.tsv \
+--number_of_examples 7 \
+--analysis_file_address predicted_fail.txt \
+--model_address \
+  pre-trained_models/grammaticals/15000-perfect_one_unsure.pt
+  
+  
+#### Perfect result on the counting dataset, small network of 5-5:  Trained on lengths (0-250, predicted  for lengthes 250-500)
+  
+Note that anbn models can take a while: up to 20 mins to process due to the long dataset generation phase 
+  python -W ignore  load_model.py \
+--train_address \
+  Datasets/different_size_train_anbn/new_train.tsv \
+--test_address \
+  Datasets/different_size_train_anbn/new_dev.tsv \
+--number_of_examples 8000 \
+--analysis_file_address predicted_anbn.txt \
+--model_address \
+  pre-trained_models/anbn/60000_best.pt
+#### Work in progress snapshot for a^nb^n dataset, makes a small number of appropriate mistakes  
+  python -W ignore  load_model.py \
+--train_address \
+  Datasets/different_size_train_anbn/new_train-15000.tsv \
+--test_address \
+  Datasets/different_size_train_anbn/new_dev.tsv \
+--number_of_examples 8000 \
+--analysis_file_address predicted_anbn_prelim.txt \
+--model_address \
+  pre-trained_models/anbn/60000_99.8.pt 
+
+
+
+
+
+
+
 
