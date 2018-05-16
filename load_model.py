@@ -161,6 +161,7 @@ def predict_and_analyze(dataset_type,number_of_example=0, train_adress="",dev_ad
     data_b =get_batches(batch_nums, train_iter_n, dev_iter_n,test_iterator=test_iter_n, dset='dev') 
     
     dev_iter_n.init_epoch()
+    model.eval()
     for ind in range(number_of_example-1): # 500
        answer = model(data_b[ind]) 
 
@@ -176,7 +177,9 @@ def predict_and_analyze(dataset_type,number_of_example=0, train_adress="",dev_ad
            print ("The system is not sure about the class")
            print (write_string)
 
-       if (str(LABELS.vocab.itos[data_b[ind].label.data[0]])=="NG"):
+  
+
+       if (str(LABELS.vocab.itos[data_b[ind].label.data[0]])=="NG" or str(LABELS.vocab.itos[data_b[ind].label.data[0]])=="UGR"):
 
             if str(LABELS.vocab.itos[data_b[ind].label.data[0]])!=str(LABELS.vocab.itos[torch.max(prob, 1)[1].data[0]]): 
                 print("System is wrong on:")
@@ -188,6 +191,8 @@ def predict_and_analyze(dataset_type,number_of_example=0, train_adress="",dev_ad
                 print("System is wrong on:")
                 print(words_string)
                 total_GR_NG+=1
+                
+                
         
        
        #print (write_string + "\n")
@@ -199,6 +204,9 @@ def predict_and_analyze(dataset_type,number_of_example=0, train_adress="",dev_ad
     print ("NUMBER OF TEST BATCHES "+str(len(data_b)))
     print ("GRAMMATICAL Predicted UNGRAMMATICAL "+ str(total_GR_NG))
     print ("UNGRAMMATICAL Predicted GRAMMATICAL "+str(total_NG_GR))
+    
+    print (LABELS.vocab.itos)
+    print(TEXT.vocab.itos) 
 
 
                     

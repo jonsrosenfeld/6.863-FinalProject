@@ -28,21 +28,20 @@ import  torch.nn.functional as F
 
 def get_args():
     parser = ArgumentParser(description='PyTorch/torchtext NewDatset')
-    parser.add_argument('--epochs', type=int, default=500)
+    parser.add_argument('--epochs', type=int, default=10)
     parser.add_argument('--batch_size', type=int, default=50)
-    parser.add_argument('--d_embed', type=int, default=5) #300 128 20 10
-    parser.add_argument('--d_hidden', type=int, default=5)  # 128 100
+    parser.add_argument('--d_embed', type=int, default=20) #300 128 20 10
+    parser.add_argument('--d_hidden', type=int, default=50)  # 128 100
     parser.add_argument('--n_layers', type=int, default=1) # 100
     parser.add_argument('--dev_every', type=int, default=100) #100
     parser.add_argument('--save_every', type=int, default=100) # 1000
     parser.add_argument('--preserve-case', action='store_false', dest='lower')
     parser.add_argument('--train_embed', action='store_false', dest='fix_emb')
-    parser.add_argument('--gpu', type=int, default=None)
+    parser.add_argument('--gpu', type=int, default=-1)
     parser.add_argument('--save_path', type=str, default='model_folder')
     parser.add_argument('--vector_cache', type=str, default=os.path.join(os.getcwd(), '.vector_cache/input_vectors.pt'))
     parser.add_argument('--word_vectors', type=str, default=False ) #"glove.6B.300d" False
-    parser.add_argument('--resume_snapshot', type=str, default='')
-    
+    parser.add_argument('--resume_snapshot', type=str, default='')   
     parser.add_argument('--train_dataset', type=str, required=True)
     parser.add_argument('--test_dataset', type=str, required=True)
     
@@ -149,7 +148,7 @@ def main_loop_structure(dataset_type): #  "aaaa_train_dev", "SST.train_dev_test"
 
   config = args
   config.use_gpu=True
-  if args.gpu==None:
+  if args.gpu==-1:
       config.use_gpu=False
       
   config.n_embed = len(TEXT.vocab) #TEXT.vocab
