@@ -6,19 +6,19 @@ We have included the yaml environment file  PT2.yaml
 
 To create an enviroment for the project run
 
-** conda env create -f PT2.yaml **
+**conda env create -f PT2.yaml**
 
 then switch to the environment by running 
 
-** source activate PT2 **
+**source activate PT2**
 
 
 
-** NOTE THAT THIS FILE CONTAINS A CPU BASED PYTOURCH PACKAGE
-WE CAN NOT PROVIDE GPU ENVIRONMENT SINCE THE CHOICE OF APPROPRIATE VERSION OF GPU-PT DEPENDS ON YOUR LOCAL MACHNE CUDA  **
+**NOTE THAT THIS FILE CONTAINS A CPU BASED PYTOURCH PACKAGE
+WE CAN NOT PROVIDE GPU ENVIRONMENT SINCE THE CHOICE OF APPROPRIATE VERSION OF GPU-PT DEPENDS ON YOUR LOCAL MACHNE CUDA**
 
 
-** THIS WILL RESULT IN A VERY SLOW (POSSIBLY DAYS) MODEL TRAINING for a^nb^n datasets ! **
+**THIS WILL RESULT IN A VERY SLOW (POSSIBLY DAYS) MODEL TRAINING for a^nb^n datasets !**
 
 ## Repository structure
 * Big_set_GR-UGR  - A set of grammatical and ungrammatical examples we sample from to construct GRAMMAR2 datasets. 
