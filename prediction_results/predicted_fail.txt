@@ -1,0 +1,6 @@
+<SOS> is it true that the pickle understood the pickled pickled pickled <EOS> Predicted_label GR True_label NG Certainty tensor(0.9477)
+<SOS> it true that the president kissed the president ? <EOS> Predicted_label GR True_label NG Certainty tensor(0.9997)
+<SOS> president pickled a president with perplexed chief of staff ! <EOS> Predicted_label NG True_label NG Certainty tensor(1.0000)
+<SOS> pickle wanted a floor with the pickle . <EOS> Predicted_label NG True_label NG Certainty tensor(1.0000)
+<SOS> a pickle pickled the floor under the floor ? <EOS> Predicted_label GR True_label NG Certainty tensor(0.9999)
+<SOS> a perplexed floor ! <EOS> Predicted_label NG True_label NG Certainty tensor(0.9419)
