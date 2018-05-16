@@ -1,16 +1,17 @@
 # 6.863-FinalProject
 ## Installation 
+We pre-supposed that the person planing to run this project has conda installed
+
+We have included the yaml environment file  PT2.yaml
+
+To create an enviroment for the project run
 
 conda env create -f PT2.yaml
 
-* python 2.7
-* pytourch
-* tourchtext
-* spacy
-* sklearn
-* matplotlib
-* nltk
 
+
+NOTE THAT THIS FILE CONTAINS A CPU BASED PYTOURCH PACKAGE
+WE CAN NOT PROVIDE GPU ENVIRONMENT SINCE the appropeiate vesion of GPU-PT would depend on thr verson of CUDA on your local machine
 
 ## Repository structure
 * Big_set_GR-UGR  - A set of grammatical and ungrammatical examples we sample from to construct GRAMMAR2 datasets. 
@@ -26,13 +27,11 @@ conda env create -f PT2.yaml
    3.    
   
 
-
 Project files
   * TestPYT_final.py
   * helper_functions.py
   * load_model.py
-
-
+  * PT2.yaml
 
 
 ## Commands to run
