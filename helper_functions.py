@@ -527,8 +527,8 @@ def shuffle_file(file1):
     random.shuffle(lines)
     open(file1, 'w').writelines(lines)
 
-def generate_dataset(max_lengh_general,generate_test=False,types_of_ungr="both",type_prop={"grammatical":1/2,"switch":1/4,"misscount":1/4}, \
-                      final_sizes_dictionary={"train":60000,"dev":8000,"test":8000}, construction_type="all_then_upsample"):  #types_of_ungr: misscount, switch, both 
+def generate_anbn(max_lengh_general,generate_test=True,types_of_ungr="both",type_prop={"grammatical":0.5,"switch":0.25,"misscount":0.25}, \
+                      f_sizes_dictionary={"train":60000,"dev":8000,"test":8000}, construction_type="all_then_upsample"):  #types_of_ungr: misscount, switch, both 
     if generate_test:
         dataset_types={"train","dev","test"}
     
@@ -569,9 +569,9 @@ def generate_dataset(max_lengh_general,generate_test=False,types_of_ungr="both",
         for split in {"train","dev","test"}:
             split_type[split]={}
             for example in {"misscount","switch","grammatical"}:
-                print (final_sizes_dictionary[split])
+                print (f_sizes_dictionary[split])
                 print (float(type_prop[example]))
-                split_type[split][example]=final_sizes_dictionary[split]*type_prop[example]
+                split_type[split][example]=f_sizes_dictionary[split]*type_prop[example]
     print (split_type)
     
     
@@ -597,7 +597,11 @@ def generate_dataset(max_lengh_general,generate_test=False,types_of_ungr="both",
     for element in merge_files:      
            output_string='merged_'+str(element)
            merge_file_multiple( merge_files[element] ,output_string)            
-    shuffle_file("merged_train")           
+    shuffle_file("merged_train")    
+
+    space_sep_to_space_sep("merge_train", "new_train.tsv")
+    space_sep_to_space_sep("merge_dev", "new_dev.tsv")
+    space_sep_to_space_sep("merge_test", "new_test.tsv")
 
 
          
@@ -662,7 +666,7 @@ def parse_results_file(filename):
     return experiments        
             
 
-def create_plot(report_adress,save_adress):       
+def create_plot(report_adress,save_adress, plot_train=False, plot_test=True):       
   experiments=parse_results_file(report_adress)        
 # "5-5-100-log-forma.txt"
 # "fixed-hidden_layer-50"
@@ -679,11 +683,11 @@ def create_plot(report_adress,save_adress):
     test = np.asarray(experiments[keys][1])
     train =np.asarray(experiments[keys][2])
 
-    plt.plot(t, test, color=colors[color_index], label=str(parsed_key[0])+"-"+str(parsed_key[1])+'-test')
-    plt.plot(t, train, color=colors[color_index], linestyle='--', label=str(parsed_key[0])+"-"+str(parsed_key[1])+'-train')
+    if plot_test==True: plt.plot(t, test, color=colors[color_index], label=str(parsed_key[0])+"-"+str(parsed_key[1])+'-test')
+    if plot_train==True: plt.plot(t, train, color=colors[color_index], linestyle='--', label=str(parsed_key[0])+"-"+str(parsed_key[1])+'-train')
     plt.legend()
     color_index+=1
-    plt.savefig(save_adress, format='eps',dpi=1000)
+    plt.savefig(save_adress, format='png',dpi=100)
 
 
 def split_to_sentences_and_labels(input_file,sentences,labels):
@@ -708,27 +712,35 @@ def mark_examples_as(file1, mark): # don't forget to add " " before the mark
       f.writelines(file_lines) 
     
 
-def process(gramatical,ungrammatical,output):
-    mark_examples_as(gramatical," GR")
-    mark_examples_as(ungrammatical, " NG")
-    
-    sizes={'train':15000,'dev':2000}
-    for dataset_type in sizes.keys():
+def dataset_GR2(gramatical,ungrammatical,output,s={'train':30000,'dev':4000}):
+    for dataset_type in s.keys():
         result_gr="grammatical_"+dataset_type
         result_ugr="ungrammatical_"+dataset_type
-        random_sample(gramatical, sizes[dataset_type], result_gr)
-        random_sample(ungrammatical, sizes[dataset_type], result_ugr)
+        random_sample(gramatical, s[dataset_type]/2, result_gr)
+        random_sample(ungrammatical, s[dataset_type]/2, result_ugr)
         
         merge_files(result_gr,result_ugr,output+str(dataset_type))
         shuffle_file(output+str(dataset_type))
+        os.remove(result_gr)
+        os.remove(result_ugr)
+        
+        space_sep_to_space_sep(output+str(dataset_type),output+str(dataset_type)+".tsv")
+        os.remove(output+str(dataset_type))
 
+
+
+
+dataset_GR2("Big_set_GR-UGR/grammatical","Big_set_GR-UGR/filtered_result","grammar_2_",s={'train':30000,'dev':4000})
+
+
+#create_plot("training_logs/GRAMMATICAL-5-5.txt","eventual_conv_grammar.png", plot_train=False, plot_test=True)
 #compute_dataset_overlap("grammar2_train","grammar2_dev")
-#space_sep_to_space_sep("grammar2_dev","grammar2_dev.tsv")
+#space_sep_to_space_sep("remove_3/grammar2_train","Datasets/different_size_train_grammar2/grammar2_train-1500.tsv")
 
-    
+#os.chdir("remove_3")   
 #process("grammatical","filtered_result","grammar2_")
-    #merge_files(gramatical,ungrammatical,output)
-   # shuffle_file(output)    
+#merge_files(gramatical,ungrammatical,output)
+#shuffle_file(output)    
     
     
 #def random_sample(input_file, sample_up_to, result)
@@ -743,8 +755,9 @@ def process(gramatical,ungrammatical,output):
 #red_patch = mpatches.Patch(color='red', label='The red data')
 
 #os.chdir("train_sizes")
+#os.chdir("remove_3")
 #generate_dataset(500,generate_test=True,types_of_ungr="both",type_prop={"grammatical":0.5,"switch":0.25,"misscount":0.25}, \
-#                     final_sizes_dictionary={"train":2000,"dev":8000,"test":8000}, construction_type="all_then_upsample")
+#                     final_sizes_dictionary={"train":60,"dev":8000,"test":8000}, construction_type="all_then_upsample")
         
 #compute_dataset_overlap("train_g2.tsv","dev_g2.tsv")
            
@@ -759,6 +772,6 @@ def process(gramatical,ungrammatical,output):
 #os.chdir("remove")
 #generate_dataset(500,generate_test=True)
 
-#space_sep_to_space_sep("merged_train-2000","new_train-2000.tsv")
+#space_sep_to_space_sep("merged_train","new_train-60.tsv")
 #space_sep_to_space_sep("merged_dev","new_dev.tsv")
 #space_sep_to_space_sep("merged_test","new_test.tsv")         

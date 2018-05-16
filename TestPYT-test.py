@@ -446,7 +446,7 @@ def get_batches(batch_nums, train_iterator, dev_iterator, dset='dev'):
     return batches
 
 
-main_loop_structure("aaaa_train_dev",train_adress="new_train.tsv",dev_adress="new_dev.tsv",test_adress="new_train.tsv")  # test is actually whole train for acessing purposes. 
+main_loop_structure("aaaa_train_dev",train_adress="Datasets/different_size_train_grammar2/grammar2_train-15000.tsv",dev_adress="Datasets/grammar2_dev.tsv",test_adress="Datasets/different_size_train_grammar2/grammar2_train-15000.tsv")  # test is actually whole train for acessing purposes. 
 
 
 '''
