@@ -1,10 +1,10 @@
 # Structure from linear string inputs: Learning human language derived CFG with LSTMs
 ## Installation 
-We presuppose that the person planing to run this project has conda installed
+We pre-supposed that the person planing to run this project has conda installed
 
 We have included the yaml environment file  PT2.yaml
 
-To create an environment for the project run
+To create an enviroment for the project run
 
 **conda env create -f PT2.yaml**
 
@@ -26,11 +26,11 @@ WE CAN NOT PROVIDE GPU ENVIRONMENT SINCE THE CHOICE OF APPROPRIATE VERSION OF GP
    1.  different_size_train_anbn  - all of the datasets generated using a^nb^n grammar
    2.  different_size_train_grammar2 -all of the datasets generated using GRAMMAR2
    
-* training_logs -The consolidated logs for all of our experiments
+* training_logs -The concolidated logs for all of our experiments
 
 * figures - All figures used in the report. The figures are generated from the Logs from training_logs  
 
-* prediction_results - The folder with the prediction results for pre-trained models
+* prediction_results - The folder with the predicion results for pre-trained models
 
 * reference_grammars - Contains grammar2
 
@@ -113,4 +113,11 @@ Note that anbn models can take a while: up to 20 mins to process due to the long
 --analysis_file_address predicted_anbn_prelim.txt \
 --model_address \
   pre-trained_models/anbn/60000_99.8.pt 
+
+
+
+
+
+
+
 
