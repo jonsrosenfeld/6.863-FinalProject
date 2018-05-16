@@ -25,9 +25,13 @@ WE CAN NOT PROVIDE GPU ENVIRONMENT SINCE THE CHOICE OF APPROPRIATE VERSION OF GP
 * Datasets 
    1.  different_size_train_anbn  - all of the datasets generated using a^nb^n grammar
    2.  different_size_train_grammar2 -all of the datasets generated using GRAMMAR2
+   
 * training_logs -The concolidated logs for all of our experiments
+
 * figures - All figures used in the report. The figures are generated from the Logs from training_logs  
+
 * prediction_results - The folder with the predicion results for pre-trained models
+
 * pretrained_models
 
    1.  60000_99.8.pt - A converging a^nb^n model, that makes a small number of mistakes on test
@@ -36,10 +40,10 @@ WE CAN NOT PROVIDE GPU ENVIRONMENT SINCE THE CHOICE OF APPROPRIATE VERSION OF GP
   
 
 Project files
-  * TestPYT_final.py
-  * helper_functions.py
-  * load_model.py
-  * PT2.yaml
+  * TestPYT_final.py - ALL THE TRAINING CODE, can be run from the command line
+  * helper_functions.py - A set of helper functions icnluding dataset generators and the figure creation script, does not have a command line interface 
+  * load_model.py - All the prediction and result generation code,
+  * PT2.yaml - An environment set-up file 
 
 
 ## Commands to run
