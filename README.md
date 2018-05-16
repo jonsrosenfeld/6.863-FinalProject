@@ -11,6 +11,14 @@ sklearn
 matplotlib
 nltk
 ## Repository structure
+* Big_set_GR-UGR  - A set of grammatical and ungrammatical examples we sample from to construct GRAMMAR2 datasets. 
+* Datasets 
+** 1
+** 2
+*
+*
+*
+
 
 
 
@@ -22,7 +30,7 @@ nltk
 #### On install without gpu
 python -W ignore TestPYT_final.py --epochs 15 --d_hidden 20 --d_embed 50 --gpu -1 --train_dataset Datasets/different_size_train_anbn/new_train.tsv --test_dataset Datasets/different_size_train_anbn/new_dev.tsv --save_path anbn-test  | tee final-log.txt
 
-Note that without gpu use, the training might take hours, especially on a^n b^n dataset 
+Note that without gpu use, the training might take days, especially on  the bigger version of a^n b^n dataset ! We provide some of the pretrained models
 #### On install with gpu
 
 python -W ignore TestPYT_final.py --epochs 15 --d_hidden 20 --d_embed 50 --gpu 1 --train_dataset Datasets/different_size_train_anbn/new_train.tsv --test_dataset Datasets/different_size_train_anbn/new_dev.tsv --save_path anbn-test  | tee final-log.txt
